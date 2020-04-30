@@ -1,0 +1,35 @@
+.content {
+  display: grid;
+  width: 100%;
+  /* background-color: aqua; */
+  gap: 5px;
+  grid-auto-rows: minmax(30px, auto);
+}
+
+.content .grid {
+  background-color: aqua;
+  width: 390px;
+  margin: 0 auto;
+}
+
+.content .one {
+  margin-right: 0;
+  height: 75px;
+}
+
+.content .two {
+  height: 50px;
+}
+
+.content .three {
+  height: 45px;
+}
+
+.content .four {
+  height: 670px;
+}
+
+.content .five {
+  height: 77px;
+  width: 730px;
+}
