@@ -5,12 +5,12 @@ body {
   display: grid;
   width: 100%;
   /* background-color: aqua; */
-  gap: 5px;
+  /* gap: 5px; */
   grid-auto-rows: minmax(30px, auto);
 }
 
 .content .grid {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 390px;
   margin: 0 auto;
 }
@@ -37,9 +37,55 @@ body {
   border-color: lightgray;
   border-width: 1px;
   background-color: white;
+  border-bottom: none;
+  padding: 35px 30px;
+}
+
+.four p {
+  text-align: center;
+}
+.four input {
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: solid;
+  border-color: lightgray;
+}
+
+.four button {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px lightgray;
+  background-color: #0077c5;
+  color: white;
+}
+
+.main_content {
+  margin: 0 auto;
+  /* width: 565px; */
+  background-color: #0077c5;
+  text-align: center;
 }
 
 .content .five {
+  /* background-color: aqua; */
+
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-top: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.content .six {
   height: 77px;
   width: 730px;
 }
@@ -57,7 +103,7 @@ body {
 .sign_in {
   border: solid;
   border-radius: 10px;
-  background-color: rgb(52, 52, 168);
+  background-color: #0077c5;
   align-self: center;
   flex-grow: 23;
   justify-self: center;
