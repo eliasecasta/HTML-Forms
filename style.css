@@ -44,6 +44,12 @@ body {
 .four p {
   text-align: center;
 }
+.main_content p {
+  font-size: 30px;
+}
+.para {
+  margin-bottom: -12px;
+}
 .four input {
   width: 100%;
   height: 33px;
@@ -51,7 +57,23 @@ body {
   border: solid;
   border-color: lightgray;
 }
-
+#email {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#phone {
+  margin-top: 15px;
+}
+.phone_detail {
+  text-align: left !important;
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+#pass {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 .four button {
   display: block;
   margin: 20px auto;
@@ -67,7 +89,6 @@ body {
 .main_content {
   margin: 0 auto;
   /* width: 565px; */
-  background-color: #0077c5;
   text-align: center;
 }
 
@@ -78,6 +99,9 @@ body {
   border-color: lightgray;
   border-width: 1px;
   border-top: none;
+  padding: 0px 30px;
+  font-size: 14px;
+  color: #8d90a1;
 }
 
 a {
@@ -88,6 +112,12 @@ a {
 .content .six {
   height: 77px;
   width: 730px;
+  text-align: center;
+  font-size: 13px;
+}
+.six p {
+  color: #505050;
+  line-height: 18px;
 }
 
 .one .one_flex {
@@ -97,6 +127,7 @@ a {
   flex-grow: 3;
   text-align: right;
   padding-right: 15px;
+  line-height: 23px;
 }
 .sign_text {
 }
