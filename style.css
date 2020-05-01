@@ -115,9 +115,13 @@ a {
   text-align: center;
   font-size: 13px;
 }
-.six p {
-  color: #505050;
+.six p,
+.six a {
+  color: #505050 !important;
   line-height: 18px;
+}
+.six a:hover {
+  text-decoration: underline !important ;
 }
 
 .one .one_flex {
@@ -129,8 +133,7 @@ a {
   padding-right: 15px;
   line-height: 23px;
 }
-.sign_text {
-}
+
 .sign_in {
   border: solid;
   border-radius: 10px;
@@ -139,13 +142,32 @@ a {
   flex-grow: 23;
   justify-self: center;
   margin-top: 10px;
-  width: 60px;
+  width: 100px;
   margin-right: 15px;
-  padding: 0 20px;
-}
-.sign_in p {
-  color: white;
+  padding: 0 0px;
 }
 
-.two img {
+.sign_in img {
+  display: inline-block;
+  height: 15px;
+  width: auto;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.sign_in p {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+button img {
+  display: inline-block;
+  height: 15px;
+  width: auto;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
 }
