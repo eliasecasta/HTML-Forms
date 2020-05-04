@@ -4,7 +4,7 @@
 
 ![screenshot](./images/mint_signup_preview.png)
 
-The project is a Sign up of the Mint Webpage, we created a form with varius types of inputs (phone, email, password) and a button with a type of sumbit.
+The project is a Sign up of the Mint Webpage, we created a form with various types of inputs (phone, email, password) and a button with a type of submit.
 
 ## Built With
 

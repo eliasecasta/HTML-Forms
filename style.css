@@ -152,17 +152,7 @@ a {
   margin-right: 15px;
 }
 
-button img {
-  display: inline-block;
-  height: 15px;
-  width: auto;
-  margin-left: 10px;
-  position: relative;
-  top: 2px;
-  margin-right: 5px;
-}
-
-.sign_in img {
+.locks {
   display: inline-block;
   height: 15px;
   width: auto;
