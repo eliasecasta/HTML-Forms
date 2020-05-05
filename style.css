@@ -27,6 +27,7 @@ body {
 .logos {
   height: 45px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .main_form {
@@ -43,23 +44,24 @@ body {
   text-align: center;
 }
 
-.logos {
-  margin-bottom: 20px;
-}
-
 .logos a,
 .logos p {
   display: inline-block;
 }
+
 .logos p {
   position: relative;
   bottom: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
 .logos a {
   text-decoration: none;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: "AvenirNext", "Helvetica Neue";
   font-weight: normal;
   font-size: 20px;
   line-height: 1.5;
@@ -120,11 +122,6 @@ body {
   padding: 0 30px;
   font-size: 14px;
   color: #8d90a1;
-}
-
-a {
-  text-decoration: none;
-  color: #0077c5;
 }
 
 .content .footer {
