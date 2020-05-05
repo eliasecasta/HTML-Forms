@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="content">
-      <nav class="grid one">
-        <div class="one_flex">
+      <nav class="grid navbar">
+        <div class="navbar_flex">
           <div class="sign_text">
             <p>
               Already have an Intuit Account?
@@ -26,34 +26,47 @@
           </a>
         </div>
       </nav>
-      <header class="grid two">
-        <a href="#"><img src="./images/intuit.png" alt="" /></a>
+      <header class="grid intuit_title">
+        <a href="#"><img src="./images/intuit.png" alt="intuit_text" /></a>
       </header>
-      <header class="grid three">
-        <a href="#"><img src="./images/header.png" alt="" /></a>
-      </header>
-      <main class="grid four">
+      <div class="grid logos">
+        <a href="#"
+          ><img src="./images/mint.png" alt="mint_logo" />
+          <p>mint</p></a
+        >
+        <a href="#"
+          ><img src="./images/quickbook.png" alt="quickbook_logo" />
+          <p>quickbooks</p></a
+        >
+        <a href="#"
+          ><img src="./images/turbotax.png" alt="turbotax_logo" />
+          <p>turbotax</p></a
+        >
+      </div>
+      <main class="grid main_form">
         <div class="main_content">
           <p>Create an Intuit Account</p>
         </div>
         <div>
-          <p class="para">One account for everything Intuit, includign Mint</p>
-          <a href="#"><p>Learn More</p></a>
+          <p class="para">
+            One account for everything Intuit, includign Mint <br />
+            <a href="#">Learn More</a>
+          </p>
         </div>
         <form action="#">
           <label for="email">Email Address</label>
           <br />
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" class="email_input" />
           <br />
-          <label for="phone">Phone (recommended)</label>
+          <label for="phone">Phone (recommended) </label>
           <br />
-          <input type="tel" name="phone" id="phone" />
+          <input type="tel" name="phone" id="phone" class="phone_input" />
           <p class="phone_detail">
             Standard call, messaging or data rates may be applied
           </p>
           <label for="pass">Password</label>
           <br />
-          <input type="password" name="pass" id="pass" />
+          <input type="password" name="pass" id="pass" class="pass_input" />
           <br />
           <button type="submit">
             <img class="locks" src="./images/lock.png" alt="lock" /> Create
@@ -69,13 +82,13 @@
           </p>
         </form>
       </main>
-      <footer class="grid five">
+      <div class="grid caption">
         <p>
           Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
           <a href="#">Terms of Use</a>.
         </p>
-      </footer>
-      <footer class="grid six">
+      </div>
+      <footer class="grid footer">
         <p>
           <a href="#"> Legal</a> <a href="#">Privacy</a>
           <a href="#">Security</a>

@@ -8,28 +8,28 @@ body {
   grid-auto-rows: minmax(30px, auto);
 }
 
-.content .grid {
+.grid {
   width: 390px;
   margin: 0 auto;
 }
 
-.content .one {
+.navbar {
   margin-right: 0;
   height: 75px;
 }
 
-.content .two {
+.intuit_title {
   height: 50px;
   text-justify: center;
   text-align: center;
 }
 
-.content .three {
+.logos {
   height: 45px;
   text-align: center;
 }
 
-.content .four {
+.main_form {
   height: 670px;
   border: solid;
   border-color: lightgray;
@@ -39,19 +39,38 @@ body {
   padding: 35px 30px;
 }
 
-.four p {
+.main_form p {
   text-align: center;
+}
+
+.logos {
+  margin-bottom: 20px;
+}
+
+.logos a,
+.logos p {
+  display: inline-block;
+}
+.logos p {
+  position: relative;
+  bottom: 10px;
+}
+
+.logos a {
+  text-decoration: none;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8b8d91;
 }
 
 .main_content p {
   font-size: 30px;
 }
 
-.para {
-  margin-bottom: -12px;
-}
-
-.four input {
+.main_form input {
   width: 100%;
   height: 33px;
   border-radius: 5px;
@@ -59,12 +78,13 @@ body {
   border-color: lightgray;
 }
 
-#email {
+.email_input,
+.pass_input {
   margin-top: 15px;
   margin-bottom: 30px;
 }
 
-#phone {
+.phone_input {
   margin-top: 15px;
 }
 
@@ -75,12 +95,7 @@ body {
   margin-bottom: 30px;
 }
 
-#pass {
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.four button {
+.main_form button {
   display: block;
   margin: 20px auto;
   width: 100%;
@@ -97,7 +112,7 @@ body {
   text-align: center;
 }
 
-.content .five {
+.caption {
   border: solid;
   border-color: lightgray;
   border-width: 1px;
@@ -112,24 +127,24 @@ a {
   color: #0077c5;
 }
 
-.content .six {
+.content .footer {
   height: 77px;
   width: 730px;
   text-align: center;
   font-size: 13px;
 }
 
-.six p,
-.six a {
+.footer p,
+.footer a {
   color: #505050 !important;
   line-height: 18px;
 }
 
-.six a:hover {
+.footer a:hover {
   text-decoration: underline !important;
 }
 
-.one .one_flex {
+.navbar_flex {
   display: flex;
 }
 
