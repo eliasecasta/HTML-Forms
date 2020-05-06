@@ -1,0 +1,180 @@
+body {
+  background-color: #eceef1;
+}
+
+.content {
+  display: grid;
+  width: 100%;
+  grid-auto-rows: minmax(30px, auto);
+}
+
+.grid {
+  width: 390px;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-right: 0;
+  height: 75px;
+}
+
+.intuit_title {
+  height: 50px;
+  text-justify: center;
+  text-align: center;
+}
+
+.logos {
+  height: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main_form {
+  height: 670px;
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  background-color: white;
+  border-bottom: none;
+  padding: 35px 30px;
+}
+
+.main_form p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.logos a,
+.logos p {
+  display: inline-block;
+}
+
+.logos p {
+  position: relative;
+  bottom: 10px;
+}
+
+.logos a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8b8d91;
+}
+
+.main_content p {
+  font-size: 30px;
+}
+
+.main_form input {
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: solid;
+  border-color: lightgray;
+}
+
+.email_input,
+.pass_input {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.phone_input {
+  margin-top: 15px;
+}
+
+.phone_detail {
+  text-align: left !important;
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+
+.main_form button {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px lightgray;
+  background-color: #0077c5;
+  color: white;
+}
+
+.main_content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.caption {
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-top: none;
+  padding: 0 30px;
+  font-size: 14px;
+  color: #8d90a1;
+}
+
+.content .footer {
+  height: 77px;
+  width: 730px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer p,
+.footer a {
+  color: #505050 !important;
+  line-height: 18px;
+}
+
+.footer a:hover {
+  text-decoration: underline !important;
+}
+
+.navbar_flex {
+  display: flex;
+}
+
+.sign_text {
+  flex-grow: 3;
+  text-align: right;
+  padding-right: 15px;
+  line-height: 23px;
+}
+
+.sign_in {
+  border: solid;
+  border-radius: 10px;
+  background-color: #0077c5;
+  align-self: center;
+  flex-grow: 23;
+  justify-self: center;
+  margin-top: 10px;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.locks {
+  display: inline-block;
+  height: 15px;
+  width: auto;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.sign_in p {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}
